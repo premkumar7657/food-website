@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url(https://ik.imagekit.io/asgxttv7mq/Revamp/foodmunch-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}

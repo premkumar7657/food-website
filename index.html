@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-Store</title>
+    <link rel="stylesheet" href="index.css">
+    <!--roboto and poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Tailwind link-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!--Hero Section-->
+    <section>
+
+        <div class="2xl:container hero py-5 flex flex-col justify-center mx-auto">
+            <div class="w-[90%] text-center text-white p-9 mx-auto">
+                <p class="font-[poppins] text-[32px] font-light leading-[54px]">Get Delicious Food Anytime</p>
+                <p class="font-[poppins] text-[22px] font-light leading-[54px]">Eat Smart & Healthy</p>
+                <div class="mt-4 flex justify-center gap-5">
+                    <button class="btn1 border px-6 py-2 bg-[#CAAD00] rounded-xl text-white text-[18px]">View
+                        Menu</button>
+                    <button class="btn2 border px-6 py-2 border-[#CAAD00] rounded-xl text-white text-[18px]">Order
+                        Now</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--food-card-->
+    <section>
+        <div class="2xl:container mx-auto">
+
+            <div class="w-[90%] mx-auto p-8">
+                <p class="font-[Roboto] leading-[34px] font-bold text-[rgb(24,59,86)] text-[28px] ">Why Choose Us?</p>
+                <p class="font-[Roboto] leading-[24px] font-normal text-[rgb(24,59,86)] text-[16px]">We use both
+                    original recipes and classic versions of famous food items.</p>
+            </div>
+
+
+            <div class="w-[90%] grid grid-cols-1 md:grid-cols-3 bg-[#F9FBFE] gap-4 mx-auto">
+                <div
+                    class="bg-[#FFFFFF] flex flex-col items-center justify-evenly text-center border shadow-lg rounded-lg p-6 gap-2">
+                    <!--why margin-x auto is not applying here-->
+                    <img src="https://ik.imagekit.io/asgxttv7mq/Revamp/food-serve.png_updatedAt=1702142726430"
+                        alt="food-img">
+                    <p class="font-[poppins] leading-[26px] font-medium text-[22px]">Food Service</p>
+                    <p class="font-[poppins] leading-[24px] font-normal text-[16px] text-[rgb(123,135,148)]">Experience
+                        fine dining at the comfort of your home. All our orders are carefully packed and arranged to
+                        give you the nothing less than perfect.</p>
+                </div>
+
+                <div
+                    class="bg-[#FFFFFF] flex flex-col items-center justify-evenly text-center border shadow-lg rounded-lg p-6 gap-2">
+                    <!--why margin-x auto is not applying here-->
+                    <img src="https://ik.imagekit.io/asgxttv7mq/Revamp/offers-img.png" alt="food-img">
+                    <p class="font-[poppins] leading-[26px] font-medium text-[22px]">Fresh Food</p>
+                    <p class="font-[poppins] leading-[24px] font-normal text-[16px] text-[rgb(123,135,148)]">The Fresh
+                        Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and
+                        farm houses so that you always get them tree to plate.</p>
+                </div>
+
+                <div
+                    class="bg-[#FFFFFF] flex flex-col items-center text-center border shadow-lg rounded-lg p-6 gap-2 justify-evenly">
+                    <!--why margin-x auto is not applying here-->
+                    <img src="https://ik.imagekit.io/asgxttv7mq/Revamp/fruits-img.png" alt="food-img">
+                    <p class="font-[poppins] leading-[26px] font-medium text-[22px]">Best Offers</p>
+                    <p class="font-[poppins] leading-[24px] font-normal text-[16px] text-[rgb(123,135,148)]">Food
+                        Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Explore menu-->
+    <section>
+        <div class="2xl:container mx-auto">
+
+            <div class="w-[90%] m-8 mx-auto">
+                <p class="font-[roboto] font-bold text-[rgb(24,59,86)] leading-[34px] text-[24px]">Explore menu</p>
+            </div>
+
+            <div class="w-[90%] m-8 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                <!--1st div-->
+                <div class="flex flex-col items-center md:items-start  gap-1.5">
+                    <img class="h-[270px] w-[270px] rounded-2xl"
+                        src="https://ik.imagekit.io/asgxttv7mq/Revamp/em-ginger-fried-img.png_updatedAt=1702351480869?updatedAt=1733904348598"
+                        alt="nonveg-img">
+                    <a href="#" class="font-[roboto] font-bold text-[rgb(24,59,86)] text-[24px]">Non-Veg Starters</a>
+                    <div class="flex flex-row">
+                        <a href="#" class="font-[roboto] font-normal text-[rgb(24,59,86)] text-[16px]">View All</a>
+                        <svg class="" fill="currentColor" viewBox="0 0 16 16" height="1.5em" width="1.5em" {...props}>
+                            <path fillRule="evenodd"
+                                d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                        </svg>
+                    </div>
+                </div>
+            
+                    <!--2nd div-->
+                    <div class="flex flex-col items-center md:items-start  gap-1.5">
+                        <img class="h-[270px] w-[270px] rounded-2xl"
+                            src="https://ik.imagekit.io/asgxttv7mq/Revamp/veg.jpg"
+                            alt="veg-img">
+                        <a href="#" class="font-[roboto] font-bold text-[rgb(24,59,86)] text-[24px]">Veg Starters</a>
+                        <div class="flex flex-row">
+                            <a href="#" class="font-[roboto] font-normal text-[rgb(24,59,86)] text-[16px]">View All</a>
+                            <svg class="" fill="currentColor" viewBox="0 0 16 16" height="1.5em" width="1.5em" {...props}>
+                                <path fillRule="evenodd"
+                                    d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                            </svg>
+                        </div>
+                    </div>
+              
+
+                <!--3rd div-->
+                <div class="flex flex-col items-center md:items-start  gap-1.5">
+                    <img class="h-[270px] w-[270px] rounded-2xl"
+                        src="https://ik.imagekit.io/asgxttv7mq/Revamp/biriyani.jpg"
+                        alt="biriyani-img">
+                    <a href="#" class="font-[roboto] font-bold text-[rgb(24,59,86)] text-[24px]">Biriyani</a>
+                    <div class="flex flex-row">
+                        <a href="#" class="font-[roboto] font-normal text-[rgb(24,59,86)] text-[16px]">View All</a>
+                        <svg class="" fill="currentColor" viewBox="0 0 16 16" height="1.5em" width="1.5em" {...props}>
+                            <path fillRule="evenodd"
+                                d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                        </svg>
+                    </div>
+                </div>
+           
+
+                <!--4th div-->
+                <div class="flex flex-col items-center md:items-start  gap-1.5">
+                    <img class="h-[270px] w-[270px] rounded-2xl"
+                        src="https://ik.imagekit.io/asgxttv7mq/Revamp/desserts.png"
+                        alt="Dessert-img">
+                    <a href="#" class="font-[roboto] font-bold text-[rgb(24,59,86)] text-[24px]">Desserts</a>
+                    <div class="flex flex-row">
+                        <a href="#" class="font-[roboto] font-normal text-[rgb(24,59,86)] text-[16px]">View All</a>
+                        <svg class="" fill="currentColor" viewBox="0 0 16 16" height="1.5em" width="1.5em" {...props}>
+                            <path fillRule="evenodd"
+                                d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z" />
+                        </svg>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--food description-->
+    <div class="2xl:container mx-auto">
+        <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 bg-[#F9FAFE] gap-8">
+
+            <div>
+                <img class="mx-auto" src="https://ik.imagekit.io/asgxttv7mq/Revamp/healthy-food-plate-img.png" alt="food-plate-img">
+            </div>
+
+            <div class="text-center flex flex-col items-center justify-around">
+                <p class="font-bold text-[28px] text-black font-[poppins]">Fresh, Healthy, Organic, Delicious Fruits</p>
+                <p class="font-medium text-black text-[19px]">Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature.</p>
+                <button class="w-[120px] text-white bg-yellow-500 text-[poppins] text-[16px] font-normal rounded-xl py-3">Watch Video</button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
